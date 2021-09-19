@@ -82,8 +82,6 @@
 
   .elements-home-container {
     display: flex;
-    /* height: 150px;
-    width: 1012px; */
   }
   .elements-home {
     justify-content: space-between;
@@ -91,8 +89,8 @@
     padding-right: 12px;
     width: 100%;
   }
-  .inputSearch-container {
-    /* width: 740px; */
+  .header-img {
+    width: 100px;
   }
   .inputSearch {
     font-size: 22px;
