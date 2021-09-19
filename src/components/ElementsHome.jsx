@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import tryBuy from '../images/tryBuy.png';
+import tryBuyresp from '../images/trybuyresp.png';
 import '../ElementsHome.css';
 
 export default class ElementsHome extends Component {
@@ -36,6 +37,7 @@ export default class ElementsHome extends Component {
         <div className="elements-home">
           <Link to="/" onClick={ this.reload }>
             <img src={ tryBuy } className="header-img" alt="logo trybuy Brasil" />
+            <img src={ tryBuyresp } className="header-img-responsive" alt="logo trybuy Brasil" />
           </Link>
           <div className="inputSearch-container">
             <input
