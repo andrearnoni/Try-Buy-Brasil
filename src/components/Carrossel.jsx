@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Carousel } from 'react-bootstrap';
-import '../Carrossel.css';
 import eletro from '../images/eletro.jpg';
 import games from '../images/games.jpg';
 import informatica from '../images/informatica.jpg';

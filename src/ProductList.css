@@ -54,3 +54,11 @@
   margin-top: 50px;
   width: 100%;
 }
+
+@media (max-width: 576px) {
+
+  .no-product-container {
+    margin: 7px auto;
+    width: 95%;
+  }
+}
