@@ -63,3 +63,13 @@
   object-fit: contain;
   width: 281px;
 }
+
+@media (max-width: 576px) {
+  .card-item {
+    margin: 8px auto;
+    width: 90%;
+  }
+  .card-item-img {
+    width: 90%;
+  }
+}

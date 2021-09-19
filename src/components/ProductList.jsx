@@ -16,7 +16,7 @@ export default class ProductList extends Component {
     return (
       <div className="card-container">
         { products.map((product) => (
-          <div key={ product.id } id="cards">
+          <div key={ product.id } className="productList-card" id="cards">
             <ProductCard
               product={ product }
               cart={ cart }
