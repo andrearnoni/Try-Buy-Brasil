@@ -1,0 +1,18 @@
+@font-face {
+  font-family: proxima;
+  src: url('./fonts/proxima_nova.otf');
+}
+
+*, :after, :before {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: proxima, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

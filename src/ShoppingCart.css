@@ -1,0 +1,132 @@
+.shopping-cart-background {
+  background-image: url('./images/cart1.png');
+  background-size: cover;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
+}
+
+.shopping-cart-container {
+  background: white;
+  border-radius: 5px;
+  margin: 60px auto;
+  padding: 30px;
+  width: 1000px;
+}
+
+.shopping-cart {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.shopping-cart-itens-container {
+  width: 450px;
+}
+
+.shopping-cart-title {
+  text-align: center;
+}
+
+.shopping-cart-qty-btn {
+  background: none;
+  border-left: none;
+  border-right: none;
+  cursor: none;
+  width: 28px;
+}
+
+.shopping-cart-decrease-btn {
+  border-radius: 0 15px 15px 0;
+}
+
+.shopping-cart-increase-btn {
+  border-radius: 15px 0 0 15px;
+}
+
+.shopping-cart-decrease-btn:focus, .shopping-cart-increase-btn:focus {
+  outline: none;
+}
+
+.shopping-cart-qty-btn:focus {
+  outline: none;
+}
+
+.shopping-cart-trash {
+  background: none;
+  border: none;
+}
+
+.shopping-cart-trash:focus {
+  outline: none;
+}
+
+.shopping-cart-btns-container {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.shopping-cart-btns {
+  background-color: #3483fa;
+  border: none;
+  border-radius: 5px;
+  color: rgb(235, 235, 235);
+  font-weight: 600;
+  padding: 8px;
+  transition: 0.2s;
+  width: 100%;
+}
+
+.shopping-cart-btns:hover {
+  background-color: #06f;
+}
+
+.cart-btn2, .cart-btn3 {
+  margin-top: 15px;
+}
+
+.shopping-cart-background-empty {
+  align-items: center;
+  background-image: url('./images/cart1.png');
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
+}
+
+.shopping-cart-container-empty {
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  padding: 50px;
+  width: 500px;
+}
+
+.shopping-cart-container-empty h3, h4 {
+  text-align: center;
+}
+
+.shopping-cart-empty {
+  background-color: #3483fa;
+  border: none;
+  border-radius: 5px;
+  color: rgb(235, 235, 235);
+  font-weight: 600;
+  padding: 8px;
+  transition: 0.2s;
+  width: 300px;
+}
+
+.shopping-cart-empty:hover {
+  background-color: #06f;
+}

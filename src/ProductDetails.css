@@ -1,0 +1,120 @@
+.details__background {
+  background-image: url('./images/backgroundDetails.jpg');
+  background-size: cover;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
+}
+
+.details__container {
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  margin: 60px auto;
+  padding: 30px;
+  width: 1000px;
+}
+
+.details__title {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.details__img-container {
+  width: 250px;
+}
+
+.details__img {
+  width: 100%;
+}
+
+.details__right-side {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.details__titleAndPrice {
+  padding: 50px;
+  width: 450px;
+}
+
+.details__link {
+  background-color: #3483fa;
+  border: none;
+  border-radius: 5px;
+  color: rgb(235, 235, 235);
+  font-weight: 600;
+  padding: 8px;
+  transition: 0.2s;
+  width: 100%;
+}
+
+.details__link:hover {
+  background-color: #06f;
+}
+
+.details__link:focus {
+  outline: none;
+}
+
+.btn2, .btn3 {
+  margin-top: 15px;
+}
+
+.details__facilities-container {
+  display: flex;
+  line-height: 0.6rem;
+}
+
+.details__facilities-span {
+  font-size: 18px;
+  margin-right: 3px;
+}
+
+.details__facilities {
+  color: #00a650;
+  font-size: 18px;
+}
+
+.details__free-shipping {
+  color: #00a650;
+  font-size: 16px;
+  line-height: 0.9rem;
+}
+
+.details__details {
+  list-style: disc;
+}
+
+.details__stock {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 17px;
+  padding: 15px;
+}
+
+.details__buttons {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 17px;
+  padding: 15px;
+}
+
+.details__address {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.details__priceAndFacilities {
+  margin-bottom: 30px;
+}
+
+.fa-truck {
+  color: #00a650;
+  transform: scaleX(-1);
+}

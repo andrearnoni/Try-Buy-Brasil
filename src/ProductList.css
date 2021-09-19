@@ -1,0 +1,56 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 70px;
+}
+
+.no-product-container {
+  background-color: rgb(31, 31, 31);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  margin-top: 9px;
+  width: 95%;
+}
+
+.no-product {
+  color: white;
+  font-size: 1.5vw;
+  text-align: center;
+  width: 95%;
+}
+
+.no-product-phone {
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 50px;
+  width: 95%;
+}
+
+.no-product-banners-container {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.no-product-banners {
+  border: 1px solid rgb(236, 236, 236);
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 50px;
+  width: 48%;
+}
+
+.no-product-ibest-container {
+  width: 95%;
+}
+
+.no-product-ibest {
+  border: 1px solid rgb(236, 236, 236);
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 50px;
+  width: 100%;
+}
