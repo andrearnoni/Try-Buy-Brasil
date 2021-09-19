@@ -118,8 +118,8 @@ export default class ShoppingCart extends Component {
               { shopcart
                 .map(({ title, count, id, price, totalValue, availableQuantity }) => (
                   <div key={ id }>
-                    <div className="item">
-                      <h4 data-testid="shopping-cart-product-name">{ title }</h4>
+                    <div className="shopping-cart-item">
+                      <h4 className="shopping-cart-item-title">{ title }</h4>
                       <div className="shopping-cart-info">
                         <p data-testid="shopping-cart-product-quantity">
                           Quantidade:
@@ -127,7 +127,7 @@ export default class ShoppingCart extends Component {
                           { count }
                         </p>
                         <p>
-                          Preço: R$
+                          Preço Unitário: R$
                           {' '}
                           { price.toLocaleString('pt-br', { minimumFractionDigits: 2 }) }
                         </p>
@@ -143,7 +143,7 @@ export default class ShoppingCart extends Component {
                           </strong>
                         </p>
                       </div>
-                      <div className="bottomCart">
+                      <div className="shopping-cart-buttonCart">
                         <button
                           id="increase"
                           disabled={ count >= availableQuantity }
