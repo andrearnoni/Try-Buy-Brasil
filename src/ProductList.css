@@ -22,11 +22,15 @@
   width: 95%;
 }
 
+.no-product-phone-container {
+  width: 1012px;
+}
+
 .no-product-phone {
   border-radius: 6px;
   cursor: pointer;
   margin-top: 50px;
-  width: 1012px;
+  width: 100%;
 }
 
 .no-product-banners-container {
@@ -59,6 +63,29 @@
 
   .no-product-container {
     margin: 7px auto;
+    width: 95%;
+  }
+  .no-product {
+    margin: auto;
+  }
+  .no-product-phone-container {
+    margin: 30px auto;
+    width: 95%;
+  }
+  .no-product-phone {
+    margin: auto;
+  }
+  .no-product-banners-container {
+    flex-direction: column;
+    margin: auto;
+    width: 95%;
+  }
+  .no-product-banners {
+    margin: 7px auto;
+    width: 100%;
+  }
+  .no-product-ibest-container {
+    margin: auto;
     width: 95%;
   }
 }

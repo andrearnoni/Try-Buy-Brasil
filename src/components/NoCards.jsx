@@ -38,7 +38,7 @@ export default class NoCards extends Component {
             className="no-product-banners"
           />
         </div>
-        <div>
+        <div className="no-product-phone-container">
           <input
             type="image"
             id="MLB1051"
