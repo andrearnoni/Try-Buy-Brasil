@@ -82,8 +82,8 @@
 
   .elements-home-container {
     display: flex;
-    height: 150px;
-    width: 1012px;
+    /* height: 150px;
+    width: 1012px; */
   }
   .elements-home {
     justify-content: space-between;
@@ -92,7 +92,7 @@
     width: 100%;
   }
   .inputSearch-container {
-    width: 740px;
+    /* width: 740px; */
   }
   .inputSearch {
     font-size: 22px;
