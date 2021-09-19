@@ -81,6 +81,24 @@
 @media (max-width: 576px) {
 
   .elements-home-container {
+    display: flex;
+    height: 150px;
     width: 1012px;
+  }
+  .elements-home {
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+  }
+  .inputSearch-container {
+    width: 740px;
+  }
+  .inputSearch {
+    font-size: 22px;
+    height: 55px;
+  }
+  .search-lupa {
+    top: 12px;
   }
 }
