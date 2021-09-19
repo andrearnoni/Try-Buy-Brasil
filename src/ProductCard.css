@@ -67,9 +67,15 @@
 @media (max-width: 576px) {
   .card-item {
     margin: 8px auto;
-    width: 90%;
+    width: 97%;
   }
   .card-item-img {
     width: 90%;
+  }
+  .card-payment-facilities-span {
+    font-size: 0.7em;
+  }
+  .card-payment-facilities {
+    font-size: 0.7em;
   }
 }
