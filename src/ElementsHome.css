@@ -12,12 +12,12 @@
 }
 
 .header-img {
-  width: 10.4vw;
+  width: 150px;
 }
 
 .inputSearch-container {
   position: relative;
-  width: 34.5vw;
+  width: 497px;
 }
 
 .inputSearch {
@@ -76,4 +76,11 @@
   right: 5px;
   top: -5px;
   width: 19px;
+}
+
+@media (max-width: 576px) {
+
+  .elements-home-container {
+    width: 1012px;
+  }
 }

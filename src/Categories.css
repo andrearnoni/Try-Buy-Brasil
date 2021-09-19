@@ -2,12 +2,12 @@
   list-style: none;
   margin: 30px 90px 0;
   padding: 10px;
-  width: 12.5vw;
+  width: 180px;
 }
 
 .categories-title {
   color: rgb(20, 20, 20);
-  font-size: 1.7vw;
+  font-size: 24.48px;
   margin-bottom: 20px;
 }
 
@@ -15,8 +15,15 @@
   background: none;
   border: none;
   color: black;
-  font-size: 0.9vw;
+  font-size: 13px;
   opacity: 0.7;
   padding: 6px 6px 6px 0;
   text-align: start;
+}
+
+@media (max-width: 576px) {
+  
+  .categories-list-container {
+    display: none;
+  }
 }

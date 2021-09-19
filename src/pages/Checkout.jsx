@@ -38,6 +38,7 @@ export default class Checkout extends Component {
             <Link to="/">
               <button
                 className="checkout-btn"
+                onClick={ () => localStorage.clear() }
                 type="button"
               >
                 COMPRAR

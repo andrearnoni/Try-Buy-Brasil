@@ -20,7 +20,7 @@ export default class Categories extends Component {
     const { handleClick } = this.props;
     const { categories } = this.state;
     return (
-      <div>
+      <div className="categories-list-container">
         <ul className="categories-list">
           <h3 className="categories-title">Categorias</h3>
           {categories
