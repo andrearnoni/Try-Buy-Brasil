@@ -1,6 +1,6 @@
 @media (max-width: 576px) {
   
-  .carousel-container {
-    width: 1012px;
+  Carousel {
+    indicators: false;
   }
 }

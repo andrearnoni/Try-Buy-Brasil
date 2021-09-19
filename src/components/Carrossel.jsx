@@ -9,7 +9,7 @@ import informatica from '../images/informatica.jpg';
 function Carrossel({ handleClick }) {
   return (
     <div className="carousel-container">
-      <Carousel interval={ 4000 }>
+      <Carousel interval={ 4000 } indicators={ false }>
         <Carousel.Item>
           <input
             type="image"
