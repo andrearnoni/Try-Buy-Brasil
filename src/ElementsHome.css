@@ -93,10 +93,11 @@
     width: 100px;
   }
   .inputSearch {
-    font-size: 22px;
-    height: 55px;
+    font-size: 14px;
+    height: 40px;
   }
   .search-lupa {
-    top: 12px;
+    right: 1px;
+    top: 6px;
   }
 }
