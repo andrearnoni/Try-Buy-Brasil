@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-// import FormComents from '../components/FormComents';
-// import RenderComents from '../components/RenderComents';
 import AddBtn from './AddBtn';
 import ProductDetailsNoInstallments from './ProductDetailsNoInstallments';
 import '../ProductDetails.css';
@@ -11,8 +9,6 @@ export default class ProductDetailsFree extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      // newComent: {},
-      // coments: [],
       cart: [],
     };
   }
@@ -20,18 +16,6 @@ export default class ProductDetailsFree extends Component {
   componentDidMount() {
     this.restoreFromLocalStorage();
   }
-
-  // Comments:
-  // handleComents = (newComents) => {
-  //   this.setState({ newComent: newComents });
-  //   this.handleAddComents();
-  //   const { coments } = this.state;
-  //   localStorage.setItem('Coments', { coments });
-  // }
-
-  // handleAddComents = () => {
-  //   this.setState(({ newComent, coments }) => ({ coments: [...coments, newComent] }));
-  // }
 
   restoreFromLocalStorage = () => {
     let localStorageShopcart = localStorage.getItem('shopcart');
@@ -84,7 +68,6 @@ export default class ProductDetailsFree extends Component {
   }
 
   render() {
-    // const { coments } = this.state;
     const { product } = this.props;
     const {
       title,
@@ -104,13 +87,14 @@ export default class ProductDetailsFree extends Component {
     return (
       <div className="details__background">
         <div className="details__container">
+          <h4 className="details__title-resp">{title}</h4>
           <div className="details__img-container">
             <img src={ `https://http2.mlstatic.com/D_NQ_NP_${thumb}-W.webp` } className="details__img" alt={ title } />
           </div>
           <div className="details__titleAndPrice">
-            <h4 className="details__title" data-testid="product-detail-name">{title}</h4>
+            <h4 className="details__title">{title}</h4>
             <div className="details__priceAndFacilities">
-              <h2>
+              <h2 className="details__price">
                 { `R$ ${Math.round((price * 100) / 100).toLocaleString()}` }
               </h2>
               <div className="details__facilities-container">
@@ -183,12 +167,6 @@ export default class ProductDetailsFree extends Component {
               <p>{`${city_name}, ${state_name}`}</p>
             </div>
           </div>
-          {/* <FormComents
-            handleComents={ this.handleComents }
-          />
-          <div>
-            {coments.map((coment, id) => <RenderComents key={ id } coment={ coment } />)}
-          </div> */}
         </div>
       </div>
     );
