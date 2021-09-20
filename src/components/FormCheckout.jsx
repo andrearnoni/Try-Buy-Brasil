@@ -12,7 +12,7 @@ export default class FormCheckout extends Component {
       <div>
         <div className="form-info">
           <h4>Informações do comprador</h4>
-          <form>
+          <form className="form-fields-container">
             <div className="form-fields">
               <input
                 type="text"
@@ -38,7 +38,7 @@ export default class FormCheckout extends Component {
             <div className="form-fields">
               <input
                 type="text"
-                className="form-field form-cep"
+                className="form-field"
                 placeholder="CEP"
               />
               <input

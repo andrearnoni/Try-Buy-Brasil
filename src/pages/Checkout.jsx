@@ -35,7 +35,7 @@ export default class Checkout extends Component {
           <br />
           <FormCheckout />
           <div className="checkout-btn-container">
-            <Link to="/">
+            <Link to="/" className="checkout-btn-link">
               <button
                 className="checkout-btn"
                 onClick={ () => localStorage.clear() }

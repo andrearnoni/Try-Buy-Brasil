@@ -64,3 +64,39 @@
 .checkout-btn:hover {
   background-color: #06f;
 }
+
+@media (max-width: 576px) {
+  
+  .checkout-background {
+    background-image: none;
+    background-color: white;
+  }
+  .checkout-container {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .checkout-itens-container {
+    margin-top: 20px;
+  }
+  .checkout-img {
+    margin: auto;
+  }
+  .checkout-item-title {
+    text-align: start;
+    width: 100%;
+  }
+  .checkout-itens-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .form-fields {
+    display: flex;
+    flex-direction: column;
+  }
+  .checkout-btn-link {
+    width: 100%;
+  }
+  .checkout-btn {
+    width: 100%;
+  }
+}
