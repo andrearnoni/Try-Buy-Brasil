@@ -141,3 +141,28 @@
 .shopping-cart-item h4 {
   padding-top: 15px;
 }
+
+@media (max-width: 576px) {
+
+  .shopping-cart-container-empty {
+    width: 85%;
+  }
+  .shopping-cart-background {
+    background-image: none;
+    background-color: white;
+  }
+  .shopping-cart-container {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .shopping-cart {
+    flex-direction: column;
+  }
+  .shopping-cart-itens-container {
+    margin: 20px auto;
+    width: 100%;
+  }
+  .shopping-cart-btns-container {
+    width: 100%;
+  }
+}

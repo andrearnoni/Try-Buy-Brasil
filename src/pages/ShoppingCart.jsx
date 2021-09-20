@@ -98,7 +98,7 @@ export default class ShoppingCart extends Component {
       return (
         <div className="shopping-cart-background-empty">
           <div className="shopping-cart-container-empty">
-            <h3>Carrinho de Compras</h3>
+            <h3 className="shopping-cart-title">Carrinho de Compras</h3>
             <h4 data-testid="shopping-cart-empty-message">Seu carrinho está vazio!</h4>
             <Link to="/">
               <button className="shopping-cart-empty" type="button">
