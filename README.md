@@ -29,6 +29,7 @@ Mobile demo:
 
 * REACT.JS
 * REACT-BOOTSTRAP
+* CSS
 
 ## Components
 
