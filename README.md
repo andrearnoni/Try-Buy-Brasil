@@ -5,7 +5,7 @@
 <h1 align="center">Try Buy Brasil</h1>
 
 Application that simulates a marketplace. Here I used the Mercado Livre API, so all the products,
-prices and descriptions are real.
+prices and descriptions are real. Designed in responsive mode.
 
 ## Demo
 
@@ -48,7 +48,7 @@ Mobile demo:
 * Change the product quantity
 * Can empty shopping cart
 * Shows the purchase summary and payment options
-* Designed for desktop and mobile
+* Designed in responsive mode
 
 ## To Run Locally
 
