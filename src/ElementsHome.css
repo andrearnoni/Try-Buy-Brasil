@@ -82,6 +82,33 @@
   width: 19px;
 }
 
+@media (min-width: 577px) and (max-width: 992px) {
+
+  .elements-home-container {
+    width: 100%;
+  }
+  .elements-home {
+    justify-content: space-around;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 100%;
+  }
+  .header-img {
+    width: 70px;
+  }
+  .inputSearch-container {
+    margin: 0 5px;
+  }
+  .inputSearch {
+    font-size: 15px;
+    height: 40px;
+  }
+  .search-lupa {
+    right: 1px;
+    top: 6px;
+  }
+}
+
 @media (max-width: 576px) {
 
   .elements-home-container {
